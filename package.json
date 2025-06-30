@@ -1,0 +1,16 @@
+{
+  "name": "sun-dudoan-api",
+  "version": "1.0.0",
+  "description": "Sunwin realtime WebSocket + AI prediction API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "@fastify/websocket": "^9.3.0",
+    "fastify": "^4.25.0",
+    "sqlite3": "^5.1.6",
+    "ws": "^8.13.0"
+  }
+}
